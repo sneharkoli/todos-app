@@ -17,7 +17,7 @@ pipeline {
         stage('Run the App') {
             steps {
                 script {
-                    sh 'yarn start &'
+                    sh 'yarn start'
                     sleep 5
                 }
             }
