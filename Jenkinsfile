@@ -31,13 +31,13 @@ pipeline {
             }
         }
 
-        stage('Cleanup') {
+        /*stage('Cleanup') {
             steps {
                 script {
                     sh 'pkill -f "node"'
                 }
             }
-        }
+        }*/
     }
 }
 
